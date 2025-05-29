@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's Student at ETH Zürich
+subtitle: Graduate Student
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
 ---
 
 
-Hi! I'm David, a Master's student in Computer Science at ETH Zürich, specializing in Cybersecurity and Machine Intelligence. My research interests are centered around Privacy Enhancing Technologies (PETs), especially their applications in private learning and humanitarian contexts.
+Hi! I'm David, a <b>Master's</b> student in Computer Science at <b>ETH Zürich</b>, specializing in <b>Cybersecurity</b> and <b>Machine Intelligence</b>. My research interests are centered around <b>Privacy Enhancing Technologies</b> (PETs), especially their applications in private learning and humanitarian contexts.
 
-This summer, I'll be joining Dr. Wouter Lueks at CISPA Helmholtz Center for Information Security as a research intern focused on PETs. Previously, I've had the opportunity to conduct research in Post-Quantum Cryptography at EPFL's LASEC group under Laurane Marco, and in applied cryptography at the French National Center for Scientific Research (CNRS)/LIP6 with Damien Vergnaud.
+This summer, I'll be joining Dr. Wouter Lueks at <b>CISPA Helmholtz Center for Information Security</b> as a research intern focused on PETs. Previously, I've had the opportunity to conduct research in Post-Quantum Cryptography at <b>EPFL's LASEC group</b> under Laurane Marco, and in applied cryptography at the <b>French National Center for Scientific Research</b> (CNRS)/LIP6 with Damien Vergnaud.
 
-Before joining ETH, I earned dual bachelor's degrees in Mathematics and Computer Science from Sorbonne University in Paris.
+Before joining ETH, I earned dual bachelor's degrees in Mathematics and Computer Science from <b>Sorbonne University</b> in Paris.

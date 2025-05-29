@@ -6,9 +6,10 @@ subtitle: Graduate Student
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
+    Drawing made by my dear [friend @ree.mud](https://www.instagram.com/ree.mud/)
     <!--<p>Add linkedin, github eth (see [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/))</p>
     <p>Nothig</p>-->
 

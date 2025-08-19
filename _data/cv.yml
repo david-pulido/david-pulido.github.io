@@ -1,96 +1,96 @@
-- title: General Information
-  type: map
+- title: "General Information"
+  type: "map"
   contents:
-    - name: Full Name
-      value: David Pulido Cornejo
-    - name: Date of Birth
-      value: 23rd September 2001
-    - name: Languages
-      value: Spanish, English, French, German
+    - name: "Full Name"
+      value: "David Pulido Cornejo"
+    - name: "Date of Birth"
+      value: "23rd September 2001"
+    - name: "Languages"
+      value: "Spanish, English, French, German"
 
-- title: Education
-  type: time_table
+- title: "Education"
+  type: "time_table"
   contents:
-    - title: MSc. Computer Science
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 2024-2027 (expected)
+    - title: "MSc. Computer Science"
+      institution: "Eidgenössische Technische Hochschule, Zurich, Switzerland"
+      year: "2024-2027 (expected)"
       description:
-        - Specializing in Cybersecurity and Machine Intelligence.
-        - GPA: 5.75/6.00
-    - title: BSc. Double Major Mathematics and Computer Science
-      institution: Sorbonne University, Paris, France
-      year: 2024
+        - "Specializing in Cybersecurity and Machine Intelligence."
+        - "GPA: 5.75/6.00"
+    - title: "BSc. Double Major Mathematics and Computer Science"
+      institution: "Sorbonne University, Paris, France"
+      year: "2024"
       description:
-        - GPA: 18/20, Class Rank: 2/39.
-        - Thesis: Cryptanalysis of a Broadcast Encryption System Based on Hidden RSA Subgroups.
-        - Relevant courses: Advanced Probability Theory, Linear and Bilinear Algebra, Measure Theory, Functional Analysis, Topology & Differential Calculus, AI & Operation Research.
+        - "GPA: 18/20, Class Rank: 2/39."
+        - "Thesis: Cryptanalysis of a Broadcast Encryption System Based on Hidden RSA Subgroups."
+        - "Relevant courses: Advanced Probability Theory, Linear and Bilinear Algebra, Measure Theory, Functional Analysis, Topology & Differential Calculus, AI & Operation Research."
 
-- title: Research Experience
-  type: time_table
+- title: "Research Experience"
+  type: "time_table"
   contents:
-    - title: Privacy Research Intern
-      institution: CISPA Helmholtz Center for Information Security
-      year: Summer 2025
+    - title: "Privacy Research Intern"
+      institution: "CISPA Helmholtz Center for Information Security"
+      year: "Summer 2025"
       description:
-        - Description 1.
-        - Description 2.
-#        - title: Description 3.
+        - "Description 1."
+        - "Description 2."
+#        - title: "Description 3."
 #          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
-    - title: Graduate Research Assistant
-      institution: EPFL, Lausanne, Switzerland
-      year: Spring 2025
+#            - "Sub-description 1."
+#            - "Sub-description 2."
+    - title: "Graduate Research Assistant"
+      institution: "EPFL, Lausanne, Switzerland"
+      year: "Spring 2025"
       description:
-        - Description 1.
-        - Description 2.
+        - "Description 1."
+        - "Description 2."
 
-    - title: Research Intern
-      institution: Centre national de la recherche scientifique (CNRS, LIP6), Paris, France
-      year: Summer 2024
+    - title: "Research Intern"
+      institution: "Centre national de la recherche scientifique (CNRS, LIP6), Paris, France"
+      year: "Summer 2024"
       description:
-        - Description 1.
-        - Description 2.
+        - "Description 1."
+        - "Description 2."
 
-    - title: Research Assistant
-      institution: Sorbonne University, Paris, France
-      year: Spring 2023
+    - title: "Research Assistant"
+      institution: "Sorbonne University, Paris, France"
+      year: "Spring 2023"
       description:
-        - Description 1.
-        - Description 2.
+        - "Description 1."
+        - "Description 2."
 
-#- title: Open Source Projects
-#  type: time_table
+#- title: "Open Source Projects"
+#  type: "time_table"
 #  contents:
-#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#      year: 2015-now
-#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#    - title: "<a href=\"https://github.com/alshedivat/al-folio\">al-folio</a>"
+#      year: "2015-now"
+#      description: "A beautiful, simple, clean, and responsive Jekyll theme for academics."
 
-#- title: Honors and Awards
-#  type: time_table
+#- title: "Honors and Awards"
+#  type: "time_table"
 #  contents:
-#    - year: 1921
+#    - year: "1921"
 #      items:
-#        - Nobel Prize in Physics
-#        - Matteucci Medal
-#    - year: 2029
+#        - "Nobel Prize in Physics"
+#        - "Matteucci Medal"
+#    - year: "2029"
 #      items:
-#        - Max Planck Medal
+#        - "Max Planck Medal"
 
-- title: Academic Interests
-  type: nested_list
+- title: "Academic Interests"
+  type: "nested_list"
   contents:
-    - title: Applied Cryptography.
+    - title: "Applied Cryptography."
       items:
-        - Description 1.
-        - Description 2.
-    - title: Machine Learning.
+        - "Description 1."
+        - "Description 2."
+    - title: "Machine Learning."
       items:
-        - Description 1.
-        - Description 2.
+        - "Description 1."
+        - "Description 2."
 
-- title: Other Interests
-  type: list
+- title: "Other Interests"
+  type: "list"
   contents:
     - "<u>Hobbies:</u> Hobby 1, Hobby 2, etc."
 

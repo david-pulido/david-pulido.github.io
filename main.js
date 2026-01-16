@@ -1,14 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Accordion Logic ---
-    const eduHeaders = document.querySelectorAll('.edu-header');
-
-    eduHeaders.forEach(header => {
-        header.addEventListener('click', () => {
-            const item = header.parentElement;
-            item.classList.toggle('collapsed');
-        });
-    });
-
     // --- Theme Switcher Logic ---
     const themeBtn = document.querySelector('.theme-switch');
     const html = document.documentElement;
@@ -27,14 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let newTheme;
 
         if (currentAttribute === 'dark') {
-            // User was manually dark -> switch to light
             newTheme = 'light';
         } else if (currentAttribute === 'light') {
-            // User was manually light -> switch to dark
             newTheme = 'dark';
         } else {
-            // No attribute set (using system default)
-            // If system is dark, switch to light. If system is light, switch to dark.
             newTheme = systemDark ? 'light' : 'dark';
         }
 

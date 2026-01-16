@@ -1,342 +1,169 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Pulido Cornejo | Personal Website</title>
-    <meta name="description"
-        content="Personal website of David Pulido Cornejo, MSc in Computer Science at ETH Zürich.">
+    <title>David Pulido Cornejo</title>
+    <meta name="description" content="MSc Computer Science at ETH Zürich.">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <nav>
-        <div class="logo">David Pulido Cornejo</div>
-        <div class="nav-controls">
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#education">Education</a>
-                <a href="#research">Research</a>
-                <a href="#teaching">Teaching</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+        <div class="nav-inner">
+            <div class="logo">David Pulido Cornejo</div> 
+            <div class="nav-controls">
+                <div class="nav-links">
+                    <a href="#education">Education</a>
+                    <a href="#research">Research</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="theme-switch" aria-label="Toggle Theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
             </div>
-            <button class="theme-switch" aria-label="Toggle Theme">
-                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="5"></circle>
-                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-            </button>
         </div>
     </nav>
 
     <main>
-        <section id="about" class="hero reveal">
-            <div class="hero-content">
-                <h1 class="hero-title">David Pulido Cornejo</h1>
-                <h2 class="hero-subtitle">M.Sc. Computer Science Student at ETH Zürich</h2>
-                <p class="hero-description">
-                    Specializing in Cybersecurity and Machine Intelligence.
-                    <br>I am deeply interested in <strong>Privacy-Enhancing Technologies (PETs)</strong>, with a focus on building systems that protect and benefit everyday people and at-risk communities.
-                    <br><br>Drawing made by my dear friend <a href="https://instagram.com/ree.mud" target="_blank">@ree.mud</a>.
-                </p>
-                <div class="contact-links" style="display: flex; gap: 20px;">
-                    <a href="https://github.com/david-pulido" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/david-pulido-cornejo/" target="_blank">LinkedIn</a>
-                    <a href="mailto:dpulido@ethz.ch">Email</a>
-                </div>
-            </div>
-            <img src="me.png" alt="David Pulido Cornejo" class="profile-img">
-        </section>
-
-        <section id="education" class="reveal">
-            <h2 class="section-title">Education</h2>
-            <div class="edu-list">
-                <div class="edu-item collapsed">
-                    <div class="edu-header">
-                        <div class="edu-header-main">
-                            <div class="edu-title-group">
-                                <span class="edu-university"><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></span>
-                                <span class="edu-location">Zürich, Switzerland</span>
-                            </div>
-                            <div class="edu-details-group">
-                                <span class="edu-degree">M.Sc. Computer Science</span>
-                                <span class="edu-period">Expected 2027</span>
-                            </div>
-                        </div>
-                        <div class="edu-icon">▼</div>
-                    </div>
-                    <div class="edu-content">
-                        <div class="edu-info-grid">
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">Major</span>
-                                <span class="edu-info-value">Cyber Security</span>
-                            </div>
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">Minor</span>
-                                <span class="edu-info-value">Machine Intelligence</span>
-                            </div>
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">GPA</span>
-                                <span class="edu-info-value">5.75 / 6.00</span>
-                            </div>
-                        </div>
-                        <div class="edu-courses-section">
-                            <div class="edu-courses-title">Relevant Courses</div>
-                            <div class="edu-courses-list">
-                                <div class="edu-course-item">Privacy Enhancing Technologies</div>
-                                <div class="edu-course-item">Zero-Knowledge Proofs</div>
-                                <div class="edu-course-item">Applied Cryptography</div>
-                                <div class="edu-course-item">Reliable and Trustworthy AI</div>
-                                <div class="edu-course-item">Network Security</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="edu-item collapsed">
-                    <div class="edu-header">
-                        <div class="edu-header-main">
-                            <div class="edu-title-group">
-                                <span class="edu-university"><a href="https://www.epfl.ch/" target="_blank">EPFL</a></span>
-                                <span class="edu-location">Lausanne, Switzerland</span>
-                            </div>
-                            <div class="edu-details-group">
-                                <span class="edu-degree">Exchange Semester</span>
-                                <span class="edu-period">Spring 2025</span>
-                            </div>
-                        </div>
-                        <div class="edu-icon">▼</div>
-                    </div>
-                    <div class="edu-content">
-                        <div class="edu-info-grid">
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">Focus</span>
-                                <span class="edu-info-value">Computer Science & Cybersecurity</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="edu-item collapsed">
-                    <div class="edu-header">
-                        <div class="edu-header-main">
-                            <div class="edu-title-group">
-                                <span class="edu-university"><a href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne University</a></span>
-                                <span class="edu-location">Paris, France</span>
-                            </div>
-                            <div class="edu-details-group">
-                                <span class="edu-degree">B.Sc. Mathematics and Computer Science</span>
-                                <span class="edu-period">2024</span>
-                            </div>
-                        </div>
-                        <div class="edu-icon">▼</div>
-                    </div>
-                    <div class="edu-content">
-                        <div class="edu-info-grid">
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">Grade</span>
-                                <span class="edu-info-value">18 / 20 (Highest Honours)</span>
-                            </div>
-                            <div class="edu-info-item">
-                                <span class="edu-info-label">Rank</span>
-                                <span class="edu-info-value">2 / 39</span>
-                            </div>
-                        </div>
-                        <div class="edu-courses-section">
-                            <div class="edu-courses-title">Dissertation</div>
-                            <div class="edu-course-item" style="width: 100%;">Cryptanalysis of a Broadcast Encryption System Based on Hidden RSA Subgroups</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="research" class="reveal">
-            <h2 class="section-title">Research Experience</h2>
-            <div class="grid" style="grid-template-columns: 1fr;">
-
-                <!-- Ordered chronologically (most recent first) -->
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://cispa.de/" target="_blank">CISPA Helmholtz Center</a></span>
-                        <span class="item-date">Jul 2025 - Sep 2025</span>
-                    </div>
-                    <h3>Privacy-Preserving Digital Wallet for Humanitarian Aid</h3>
-                    <div class="item-desc">
-                        <p>Designed a privacy-preserving digital wallet system optimized for resource-constrained environments (2G/3G) to support 50k+ households. Proposed mechanisms combining differential privacy, anonymous communication, and multi-client ORAM.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Internship</span>
-			<span class="tag">System Design</span>
-			<span class="tag">Anonymous Comms</span>
-                        <span class="tag">E-Cash</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://lasec.epfl.ch/" target="_blank">EPFL (LASEC)</a></span>
-                        <span class="item-date">Feb 2025 - Jun 2025</span>
-                    </div>
-                    <h3>Post-Quantum Cryptography (3-Tensor Isomorphism)</h3>
-                    <div class="item-desc">
-                        <p>Investigated the 3-Tensor Isomorphism Problem (3-TIP), a foundational problem for post-quantum signature schemes like ALTEQ. Derived algebraic-combinatorial invariants of tensor graphs and built a Python/SageMath framework for visualization and analysis.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Semester Project</span>
-                        <span class="tag">Post-Quantum Crypto</span>
-                        <span class="tag">SageMath</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://www.lip6.fr/" target="_blank">CNRS (LIP6)</a></span>
-                        <span class="item-date">Jun 2024 - Aug 2024</span>
-                    </div>
-                    <h3>Cryptographic Key Schedule Reconstruction</h3>
-                    <div class="item-desc">
-                        <p>Designed algorithms for key schedule reconstruction on memory degraded by various channels, reducing search space from 2<sup>128</sup> to 2<sup>32</sup>.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Internship</span>
-                        <span class="tag">Cryptanalysis</span>
-                        <span class="tag">Cold Boot Attack</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne University</a></span>
-                        <span class="item-date">Feb 2023 - Jul 2023</span>
-                    </div>
-                    <h3>Broadcast Encryption Cryptanalysis</h3>
-                    <div class="item-desc">
-                        <p>Devised cryptanalytic attacks on a broadcast encryption scheme based on hidden RSA subgroups using continued fraction techniques. Implemented the full cryptosystem and attacks in Python/SageMath.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Bachelor's Thesis</span>
-			<span class="tag">Cryptanalysis</span>
-                        <span class="tag">SageMath</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="teaching" class="reveal">
-            <h2 class="section-title">Teaching</h2>
-            <div class="grid" style="grid-template-columns: 1fr;">
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></span>
-                        <span class="item-date">Fall 2025</span>
-                    </div>
-                    <h3>Teaching Assistant: Privacy-Enhancing Technologies</h3>
-                    <div class="item-desc">
-                        <p>Led exercise sessions and supported course logistics in advanced cryptography and statistical privacy. Covered interactive proofs, zero-knowledge proofs, secure multi-party computation, and differential privacy.</p>
-                    </div>
-                    <div class="tag-container">
-			<span class="tag">PIR</span>
-			<span class="tag">ORAM</span>
-                        <span class="tag">ZKP</span>
-                        <span class="tag">MPC</span>
-                        <span class="tag">Differential Privacy</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="reveal">
-            <h2 class="section-title">Projects</h2>
-            <div class="grid" style="grid-template-columns: 1fr;">
-
-                <!-- Ordered chronologically (most recent first) -->
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></span>
-                        <span class="item-date">Fall 2025</span>
-                    </div>
-                    <h3>Fair Representation Learning Verification</h3>
-                    <div class="item-desc">
-                        <p>Implemented neural network verification methods (MILP, DeepPoly) to assess fairness and robustness. Built an end-to-end verification pipeline and trained fairness-aware encoders using adversarial training to balance clean accuracy with fairness guarantees.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Neural Net Certification</span>
-                        <span class="tag">Adversarial Training</span>
-                        <span class="tag">DeepPoly</span>
-			<span class="tag">MILP</span>
-                        <span class="tag">PyTorch</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://www.epfl.ch/" target="_blank">EPFL</a></span>
-                        <span class="item-date">Spring 2025</span>
-                    </div>
-                    <h3>libPNG OSS-Fuzz Analysis</h3>
-                    <div class="item-desc">
-                        <p>Enhanced OSS-Fuzz harnesses for libPNG, increasing code coverage from 3.5% to 81.7% via targeted tests. Discovered and analyzed memory bugs related to unsafe pointer handling, proposed mitigations, and contributed fixes upstream.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">Fuzzing</span>
-                        <span class="tag">C/C++</span>
-                        <span class="tag">Open Source</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="item-header">
-                        <span class="item-org"><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></span>
-                        <span class="item-date">Fall 2024</span>
-                    </div>
-                    <h3>ACME Client for Automated TLS Certificate Management</h3>
-                    <div class="item-desc">
-                        <p>Developed a standard-compliant ACMEv2 client (RFC8555) for automated certificate management. Deployed multiple integrated services, including DNS/HTTP challenge servers, and an HTTPS endpoint utilizing dynamically issued certificates.</p>
-                    </div>
-                    <div class="tag-container">
-                        <span class="tag">TLS/SSL</span>
-                        <span class="tag">Networking</span>
-                        <span class="tag">Automation</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="reveal" style="text-align: center;">
-            <h2 class="section-title" style="border-bottom: none; text-align: center;">Get In Touch</h2>
-            <p class="hero-description" style="margin: 0 auto 32px;">
-                I am open to collaborations in Privacy Enhancing Technologies, Machine Learning Security, and Applied Cryptography.
+        <section id="about" class="hero">
+            <!--<h1 class="hero-name">David Pulido Cornejo</h1>-->
+            <p class="intro">
+                M.Sc. Student at <strong>ETH Zürich</strong>. Interested in <strong>Privacy-Enhancing Technologies (PETs)</strong>, with a focus on building systems that protect and benefit everyday people and at-risk communities.
             </p>
-            <a href="mailto:dpulido@ethz.ch" class="card"
-                style="display: inline-block; padding: 12px 32px; color: var(--accent-color); font-weight: 600;">
-                Send an Email
-            </a>
-            <p style="margin-top: 48px; color: var(--text-secondary);">Zürich, Switzerland</p>
+            <div class="links">
+                <a href="mailto:dpulido@ethz.ch">Email</a>
+                <a href="https://github.com/david-pulido" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/david-pulido-cornejo/" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-label">Education</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>ETH Zürich</h3>
+                    <span class="date">2027</span>
+                </div>
+                <p class="sub-detail">M.Sc. Computer Science (Cyber Security & Machine Intelligence)</p>
+                <p class="faded">GPA: 5.75 / 6.00</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>EPFL</h3>
+                    <span class="date">2025</span>
+                </div>
+                <p class="sub-detail">Exchange Semester</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Sorbonne University</h3>
+                    <span class="date">2024</span>
+                </div>
+                <p class="sub-detail">B.Sc. Mathematics & Computer Science</p>
+                <p class="faded">Highest Honours (Top 2/39)</p>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2 class="section-label">Research Experience</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Privacy-Preserving Digital Wallet</h3>
+                    <span class="date">CISPA Helmholtz · 2025</span>
+                </div>
+                <p>Designed a digital wallet for humanitarian aid in resource-constrained environments (2G/3G). Proposed mechanisms combining differential privacy, anonymous communication, and multi-client ORAM.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Post-Quantum Cryptography</h3>
+                    <span class="date">EPFL (LASEC) · 2025</span>
+                </div>
+                <p>Investigated the 3-Tensor Isomorphism Problem (3-TIP) for post-quantum signatures. Derived algebraic-combinatorial invariants and built a SageMath analysis framework.</p>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Key Schedule Reconstruction</h3>
+                    <span class="date">CNRS (LIP6) · 2024</span>
+                </div>
+                <p>Designed algorithms for key schedule reconstruction on memory degraded by cold boot attacks, reducing search space from 2<sup>128</sup> to 2<sup>32</sup>.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Broadcast Encryption Cryptanalysis</h3>
+                    <span class="date">Sorbonne University · 2023</span>
+                </div>
+                <p>Devised cryptanalytic attacks on a broadcast encryption scheme based on hidden RSA subgroups using continued fraction techniques. Implemented the full cryptosystem and attacks in SageMath.</p>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2 class="section-label">Teaching</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Privacy-Enhancing Technologies</h3>
+                    <span class="date">ETH Zürich · 2025</span>
+                </div>
+                <p>Led exercise sessions covering Zero-Knowledge Proofs, Private Information Retrieval, Oblivious RAM, Secure Multi-Party Computation, and Differential Privacy.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-label">Projects</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Fairness Verification in Neural Nets</h3>
+                    <span class="date">ETH Zürich · 2025</span>
+                </div>
+                <p>Implemented verification methods (MILP, DeepPoly) to assess fairness. Built an end-to-end pipeline using adversarial training to balance accuracy with fairness guarantees.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>libPNG OSS-Fuzz Analysis</h3>
+                    <span class="date">EPFL · 2025</span>
+                </div>
+                <p>Increased code coverage from 3.5% to 81.7%. Discovered memory bugs related to unsafe pointers and contributed upstream fixes.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>ACME Client for Automated TLS</h3>
+                    <span class="date">ETH Zürich · 2024</span>
+                </div>
+                <p>Developed a standard-compliant ACMEv2 client (RFC8555) for automated certificate management. Deployed DNS/HTTP challenge servers and an HTTPS endpoint.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-label">Contact</h2>
+            <div class="contact-content">
+                <p>
+                    Open to collaborations in PETs, Machine Learning Security and Applied Crypto.<br>
+                    <a href="mailto:dpulido@ethz.ch" class="contact-email">dpulido@ethz.ch</a>
+                </p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;
-            <script>document.write(new Date().getFullYear())</script> David Pulido Cornejo. All rights reserved.
-        </p>
+        <div class="footer-inner">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> David Pulido Cornejo</p>
+        </div>
     </footer>
 
     <script src="main.js"></script>
 </body>
-
 </html>

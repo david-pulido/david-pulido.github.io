@@ -13,24 +13,36 @@
     <nav>
         <div class="nav-inner">
             <div class="logo">David Pulido Cornejo</div> 
+            
             <div class="nav-controls">
-                <div class="nav-links">
+                <div class="nav-links" id="nav-links">
                     <a href="#education">Education</a>
                     <a href="#research">Research</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <button class="theme-switch" aria-label="Toggle Theme">
-                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                </button>
+
+                <div class="nav-actions">
+                    <button class="theme-switch" aria-label="Toggle Theme">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </button>
+
+                    <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
 
     <main>
         <section id="about" class="hero">
-            <!--<h1 class="hero-name">David Pulido Cornejo</h1>-->
+            <h1 class="hero-name">David Pulido Cornejo</h1>
             <p class="intro">
                 M.Sc. Student at <strong>ETH Zürich</strong>. Interested in <strong>Privacy-Enhancing Technologies (PETs)</strong>, with a focus on building systems that protect and benefit everyday people and marginalized communities.
             </p>
@@ -82,24 +94,6 @@
                 <p>
                     Designed a privacy-preserving digital wallet for humanitarian aid distribution on commodity smartphones, combining multi-device balance synchronization with custom divisible e-cash budget enforcement.
                 </p>
-                <!--<div class="entry-links">
-                    <a href="#" target="_blank" class="entry-link">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                        </svg>
-                        Code
-                    </a>
-                    <a href="#" target="_blank" class="entry-link">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                        Paper Draft
-                    </a>
-                </div>-->
             </div>
 
             <div class="entry">
@@ -127,32 +121,6 @@
                     </a>
                 </div>
             </div>
-            
-            <!--<div class="entry">
-                <div class="entry-header">
-                    <h3>Key Schedule Reconstruction</h3>
-                    <span class="date">CNRS (LIP6) · 2024</span>
-                </div>
-                <p>Designed algorithms for AES key schedule reconstruction on memory degraded by cold boot attacks through multiple types of binary channels, reducing search space from 2<sup>128</sup> to 2<sup>32</sup>.</p>
-                <div class="entry-links">
-                    <a href="https://github.com/david-pulido/AES-Key-Reconstruction" target="_blank" class="entry-link">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                        </svg>
-                        Code
-                    </a>
-                    <a href="#" target="_blank" class="entry-link">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                        Report
-                    </a>
-                </div>
-            </div>-->
 
             <div class="entry">
                 <div class="entry-header">

@@ -164,6 +164,8 @@ nav {
 
 .entry-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
 .entry-header h3 { font-size: 1rem; font-weight: 600; color: var(--text-main); letter-spacing: -0.01em; }
+.entry-header h3 a { font-size: 1rem; font-weight: 600; color: var(--text-main); letter-spacing: -0.01em; }
+.entry-header h3:hover { border-color: var(--text-muted);}
 
 .date {
     font-family: var(--font-stack); font-size: 0.85rem; color: var(--text-muted);
